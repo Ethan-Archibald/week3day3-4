@@ -1,0 +1,142 @@
+html body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Varela Round';
+    background-color: antiquewhite;
+    background-image: linear-gradient(rgba(0.4, 0.4, 0.4, 0.4),rgba(0.4, 0.4, 0.4, 0.4)) , url(chopping.jpg);
+}
+
+.nav {
+    margin: 50px 80px;
+    border-bottom: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+ul li {
+    font-size: larger;
+    padding-left: 20px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+.title h1 {
+    border-bottom: 3px solid white;
+    font-size: 125px;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px 40px;
+}
+
+.title h2 {
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+
+.bread {
+    margin-top: 355px;
+    background-color: black;
+    height: 508px;
+    display: flex;
+}
+
+.tbread {
+    height: 508px;
+    padding-left: 80px;
+}
+
+.bread h1 {
+    color: white;
+    font-size: 50px;
+    padding-top: 150px;
+}
+
+.bread p {
+    color: white;
+    font-size: 30px;
+    width: 900px;
+    font-weight: lighter;
+}
+
+.breadimg {
+    height: 508px;
+    width: 760px; 
+}
+
+.pine {
+    background-color: #0d0d0d;
+    height: 508px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tpine {
+    height: 508px;
+    padding-right: 160px;
+}
+
+.pine h1 {
+    color: white;
+    font-size: 50px;
+    padding-top: 150px;
+}
+
+.pine p {
+    color: white;
+    font-size: 30px;
+    width: 900px;
+    font-weight: lighter;
+}
+
+.pineimg {
+    height: 508px;
+    width: 760px; 
+}
+
+.pasta {
+    background-color: #181818;
+    height: 508px;
+    display: flex;
+}
+
+.tpasta {
+    height: 500px;
+    padding-left: 80px;
+}
+
+.pasta h1 {
+    color: white;
+    font-size: 50px;
+    padding-top: 150px;
+}
+
+.pasta p {
+    color: white;
+    font-size: 30px;
+    width: 900px;
+    font-weight: lighter;
+}
+
+.pastaimg {
+    height: 508px;
+    width: 760px; 
+}
